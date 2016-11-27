@@ -13,7 +13,7 @@ def print_repo_info repo, languages
 end
 
 def print_progress total, text, size
-  proportion = (size / total.to_f).round(2)
+  proportion = (size.to_f / total.to_f).round(2)
   characters = "="*(proportion * 20)
   empty_characters = " "*(20 - (proportion * 20).floor)
   puts "[" + characters + empty_characters + "] (#{(proportion * 100).round(2)}% / #{size} LOC) #{text}"
@@ -23,8 +23,13 @@ user = ARGV[0]
 
 api = GHClient::Api.new
 
-# api.get_user(user)
+acum = Hash.new { |h, k| h[k] = 0}
+
 api.get_repositories(user).each do |repo|
   languages = api.get_languages_for_repository(repo["full_name"])
+  languages.each{|l,c| acum[l] += c}
   print_repo_info(repo, languages)
 end
+
+first_language = acum.to_a.sort{|x,y| y[1] <=> x[1]}[0]
+puts "First language for #{user}: #{first_language[0]}, first_language#{first_language[1]}"
