@@ -1,1 +1,1 @@
-require './lib/ghclient'
+require './lib/api'

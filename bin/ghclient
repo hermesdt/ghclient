@@ -1,0 +1,30 @@
+#!/usr/bin/env ruby
+
+require_relative '../gh_client'
+
+def print_repo_info repo, languages
+  total = languages.inject(0){|acum, l| acum + l[1]}
+  puts "#{repo["full_name"]} - Total LOC: #{total}"
+
+  languages.each do |language, count|
+    print_progress(total, language, count)
+  end
+  puts ""
+end
+
+def print_progress total, text, size
+  proportion = (size / total.to_f).round(2)
+  characters = "="*(proportion * 20)
+  empty_characters = " "*(20 - (proportion * 20).floor)
+  puts "[" + characters + empty_characters + "] (#{(proportion * 100).round(2)}% / #{size} LOC) #{text}"
+end
+
+user = ARGV[0]
+
+api = GHClient::Api.new
+
+# api.get_user(user)
+api.get_repositories(user).each do |repo|
+  languages = api.get_languages_for_repository(repo["full_name"])
+  print_repo_info(repo, languages)
+end
