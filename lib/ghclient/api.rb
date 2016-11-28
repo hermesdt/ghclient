@@ -1,14 +1,15 @@
-require_relative './ghclient/connection'
-require_relative './ghclient/user'
-require_relative './ghclient/repository'
+require_relative './connection'
+require_relative './user'
+require_relative './repository'
+require_relative './cli'
 
 module GHClient
   class Api
 
     attr_accessor :connection
 
-    def initialize
-      @connection = GHClient::Connection.new()
+    def initialize connection = GHClient::Connection.new()
+      @connection = connection
     end
 
     def get_user user_name

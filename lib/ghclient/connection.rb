@@ -3,6 +3,8 @@ require 'net/https'
 require 'json'
 
 module GHClient
+  class NoAccessToken < StandardError; end
+  
   class Connection
 
     BASE_URL = 'https://api.github.com'
@@ -12,12 +14,12 @@ module GHClient
 
     def initialize options = {}
       @options = options
-      options[:access_token] = ACCESS_TOKEN
+      options[:access_token] ||= ACCESS_TOKEN
       check_options!(@options)
     end
 
     def check_options!(options)
-      options[:access_token] || (raise 'no access toten')
+      options[:access_token] || (raise NoAccessToken)
     end
 
     def get path

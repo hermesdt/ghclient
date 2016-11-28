@@ -1,0 +1,108 @@
+repo_info: |+
+  my_user/my_repo - Total LOC: 698
+  [==                  ] (14.0% / 100 LOC) Java
+  [=================   ] (86.0% / 598 LOC) Ruby
+
+print_progress: |+
+  [===========         ] (55.0% / 311 LOC) Prolog
+print_for_user: |+
+  hermesdt/AFA2 - Total LOC: 247699
+  [====================] (100.0% / 247699 LOC) Java
+
+  hermesdt/afa_web - Total LOC: 126728
+  [=============       ] (68.0% / 85656 LOC) Ruby
+  [======              ] (32.0% / 41072 LOC) JavaScript
+
+  hermesdt/Android-DirectoryChooser - Total LOC: 41563
+  [===============     ] (79.0% / 32979 LOC) Java
+  [==                  ] (12.0% / 5080 LOC) Shell
+  [=                   ] (8.0% / 3504 LOC) Groovy
+
+  hermesdt/best-boxing-timer - Total LOC: 193955
+  [=================== ] (96.0% / 185579 LOC) Java
+  [                    ] (4.0% / 7484 LOC) Shell
+  [                    ] (0.0% / 892 LOC) Groovy
+
+  hermesdt/blogjs - Total LOC: 25311
+  [====================] (100.0% / 25201 LOC) JavaScript
+  [                    ] (0.0% / 110 LOC) CSS
+
+  hermesdt/devise - Total LOC: 0
+
+  hermesdt/documentary - Total LOC: 7130
+  [====================] (100.0% / 7130 LOC) JavaScript
+
+  hermesdt/ghclient - Total LOC: 9003
+  [====================] (100.0% / 9003 LOC) Ruby
+
+  hermesdt/google_code_jam - Total LOC: 6222
+  [====================] (100.0% / 6222 LOC) Ruby
+
+  hermesdt/hangout-test - Total LOC: 0
+
+  hermesdt/hermesdt.github.io - Total LOC: 627157
+  [============        ] (63.0% / 397658 LOC) CSS
+  [=======             ] (36.0% / 226757 LOC) HTML
+  [                    ] (0.0% / 1920 LOC) Ruby
+  [                    ] (0.0% / 822 LOC) JavaScript
+
+  hermesdt/ivoox-fetcher - Total LOC: 1897
+  [====================] (100.0% / 1897 LOC) Ruby
+
+  hermesdt/madridtransport - Total LOC: 6231
+  [============        ] (62.0% / 3849 LOC) JavaScript
+  [======              ] (32.0% / 1979 LOC) Ruby
+  [=                   ] (5.0% / 293 LOC) HTML
+  [                    ] (2.0% / 110 LOC) CSS
+
+  hermesdt/omniauth-wsfed - Total LOC: 32857
+  [====================] (100.0% / 32857 LOC) Ruby
+
+  hermesdt/participacion - Total LOC: 578990
+  [===========         ] (56.0% / 321688 LOC) Ruby
+  [=====               ] (25.0% / 145594 LOC) HTML
+  [===                 ] (17.0% / 100382 LOC) CSS
+  [                    ] (1.0% / 6367 LOC) JavaScript
+  [                    ] (1.0% / 3074 LOC) CoffeeScript
+  [                    ] (0.0% / 1885 LOC) Shell
+
+  hermesdt/pyjoke - Total LOC: 1032
+  [====================] (100.0% / 1032 LOC) Python
+
+  hermesdt/remotipart - Total LOC: 9848
+  [====================] (100.0% / 9848 LOC) Ruby
+
+  hermesdt/Ruby-Tuenti-Album-Downloader - Total LOC: 0
+
+  hermesdt/RubyFilmFinder - Total LOC: 108334
+  [==================  ] (94.0% / 101715 LOC) JavaScript
+  [=                   ] (6.0% / 6619 LOC) Ruby
+
+  hermesdt/SafeBlock - Total LOC: 4048
+  [====================] (100.0% / 4048 LOC) Ruby
+
+  hermesdt/tictactoe - Total LOC: 0
+
+  hermesdt/tolk - Total LOC: 49422
+  [====================] (100.0% / 49190 LOC) Ruby
+  [                    ] (0.0% / 232 LOC) JavaScript
+
+  hermesdt/TomatoEvans.github.io - Total LOC: 2381
+  [===========         ] (57.0% / 1357 LOC) CSS
+  [========            ] (43.0% / 1024 LOC) HTML
+
+  hermesdt/tresxtresIA - Total LOC: 7820
+  [====================] (100.0% / 7820 LOC) Ruby
+
+  hermesdt/vim_config - Total LOC: 556575
+  [=================   ] (85.0% / 473982 LOC) VimL
+  [==                  ] (10.0% / 53218 LOC) Ruby
+  [                    ] (4.0% / 23888 LOC) C
+  [                    ] (1.0% / 5487 LOC) Makefile
+
+  hermesdt/webyaml - Total LOC: 20380
+  [=================== ] (95.0% / 19459 LOC) Ruby
+  [                    ] (2.0% / 463 LOC) JavaScript
+  [                    ] (2.0% / 458 LOC) CoffeeScript
+
+  First language for hermesdt: Ruby
