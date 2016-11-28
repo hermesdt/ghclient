@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require_relative '../gh_client'
+require_relative '../lib/ghclient'
 require_relative '../lib/ghclient/cli'
 
 user = ARGV[0]

@@ -17,7 +17,7 @@
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
-require './gh_client'
+require './lib/ghclient'
 require 'vcr'
 require 'webmock'
 Dir.glob(File.dirname(__FILE__) + "/helpers/*.rb").each{|f| require_relative f}

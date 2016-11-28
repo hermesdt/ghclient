@@ -11,6 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary        = 'github client'
   spec.test_files     = Dir.glob('spec/**/*')
   spec.version        = '0.0.1'
+  spec.executables    += ["ghclient"]
 
   spec.add_development_dependency 'rspec', ['~> 3.5']
   spec.add_development_dependency 'vcr', ['~> 3.0']
