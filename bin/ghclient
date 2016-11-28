@@ -3,6 +3,11 @@
 require_relative '../lib/ghclient'
 require_relative '../lib/ghclient/cli'
 
+if ARGV.size != 1
+  puts "Usage: ghclient user\n\n  Example: ghclient hermesdt"
+  exit 1
+end
+
 user = ARGV[0]
 
 cli = GHClient::Cli.new
