@@ -1,1 +1,1 @@
-require './lib/ghclient/api'
+require_relative './ghclient/api'
