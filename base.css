@@ -10,11 +10,33 @@ body {
 
 section {
 	padding: 1em 0;
+	position: relative;
+}
+
+#add-hourse {
+	position: fixed;
+	bottom: 1em;
+	right: 1em;
+	font-size: 2em;
+	background: red;
+	vertical-align: middle;
+	color: #eee;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.20),
+		0 1px 5px 0 rgba(0,0,0,0.18),
+		0 3px 1px -2px rgba(0,0,0,0.25);
+
+	border-radius: 40px;
+	border: none;
+	width: 56px;
+	height: 56px;
+}
+
+.hourse:first-child {
+	border-top: 1px solid #909090;
 }
 
 .hourse {
 	padding: 1em 1em 1em 1em;
-	border-top: 1px solid #909090;
 	border-bottom: 1px solid #909090;
 	position: relative;
 }
@@ -49,4 +71,11 @@ section {
 p {
 	margin: 0;
 	padding: 0;
+}
+
+@media(min-width:640px){
+	#add-hourse {
+		bottom: 2em;
+		right: 2em;
+	}
 }
