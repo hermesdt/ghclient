@@ -1,0 +1,93 @@
+html, body {
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: 'Pontano Sans', serif;
+}
+
+body {
+	background: #eee;
+}
+
+section {
+	padding: 1em 0;
+}
+
+#hourse {
+	padding: 1em 1em 1em 1em;
+	border-top: 1px solid #909090;
+	border-bottom: 1px solid #909090;
+	position: relative;
+}
+
+#hourse img.logo {
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+#hourse .days-ago {
+	position: absolute;
+	top: 0.25em;
+	right: 0.5em;
+	font-size: 0.9em;
+	color: #aaa;
+}
+
+#hourse header {
+	font-weight: bold;
+}
+
+#hourse .text-container {
+	padding-left: 1em;
+}
+
+#hourse a {
+	color: #778d9f;
+	font-weight: bold;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.row {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.row:before, .row:after {
+	content: " ";
+    display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+.medium-8 { width: 60%; }
+
+.small-2 { width: 20%; }
+.small-10 { width: 80%; }
+.small-2, .small-10 {
+	float: left;
+}
+
+.columns {
+	box-sizing: border-box;
+}
+
+.columns:last-child {
+	float: right;
+}
+
+@media(max-width: 640px){
+}
+
+@media(min-width: 641px) and (max-width: 1025px){
+
+}
+
+@media(min-width: 1025px) and (max-width: 1440px){
+
+}
