@@ -5,32 +5,38 @@
 		<link rel="stylesheet" href="hourse2.css" />
 	</head>
 
+	<template id="hourse-template">
+		<article class="hourse row collapse">
+			<time datetime="2016-12-01" class="days-ago">7 days</time>
+
+			<div class="small-2 columns">
+				<img src="./hourse.png" class="logo" />
+			</div>
+
+			<div class="small-10 columns text-container">
+				<header>
+					horse_js
+				</header>
+
+				<p>
+					as much as I want to be, I'm not <a href="#">@horse_js</a>
+				</p>
+			</div>
+		</template>
+	</script>
+
 	<body>
 
 		<section class="row">
 
-			<div class="medium-offset-2 small-12 medium-8 columns">
-				<article class="hourse row collapse">
-
-					<time datetime="2016-12-01" class="days-ago">7 days</time>
-
-					<div class="small-2 columns">
-						<img src="./hourse.png" class="logo" />
-					</div>
-
-					<div class="small-10 columns text-container">
-						<header>
-							horse_js
-						</header>
-
-						<p>
-							as much as I want to be, I'm not <a href="#">@horse_js</a>
-						</p>
-					</div>
-				</article>
+			<div class="medium-offset-2 small-12 medium-8 columns" id="hourses-container">
+				
 			</div>
 
 		</section>
 
+		<button id="add-hourse" onclick="Hourse.addElement();">+</button>
+
+		<script src="./hourse2.js"></script>
 	</body>
 </html>
