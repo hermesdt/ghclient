@@ -1,0 +1,24 @@
+.animation1, .animation2 {
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.animation1 { animation-name: animation1; }
+.animation2 { animation-name: animation2; }
+
+@keyframes animation1 {
+    0%   {
+    	opacity: 0;
+    }
+    100% {
+    	opacity: 1;
+    }
+}
+
+@keyframes animation2 {
+    0%   {
+    	background: yellow;
+    }
+    100% {
+    }
+}
