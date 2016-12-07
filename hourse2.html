@@ -7,23 +7,25 @@
 
 	<template id="hourse-template">
 		<article class="hourse row collapse">
-			<time datetime="2016-12-01" class="days-ago">7 days</time>
+			<div class="hourse-wrapper">
+				<time datetime="2016-12-01" class="days-ago">7 days</time>
 
-			<div class="small-2 columns">
-				<img src="./hourse.png" class="logo" />
+				<div class="small-2 columns">
+					<img src="./hourse.png" class="logo" />
+				</div>
+
+				<div class="small-10 columns text-container">
+					<header>
+						horse_js
+					</header>
+
+					<p>
+						as much as I want to be, I'm not <a href="#">@horse_js</a>
+					</p>
+				</div>
 			</div>
-
-			<div class="small-10 columns text-container">
-				<header>
-					horse_js
-				</header>
-
-				<p>
-					as much as I want to be, I'm not <a href="#">@horse_js</a>
-				</p>
-			</div>
-		</template>
-	</script>
+		</article>
+	</template>
 
 	<body>
 
