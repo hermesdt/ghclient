@@ -12,20 +12,20 @@ section {
 	padding: 1em 0;
 }
 
-#hourse {
+.hourse {
 	padding: 1em 1em 1em 1em;
 	border-top: 1px solid #909090;
 	border-bottom: 1px solid #909090;
 	position: relative;
 }
 
-#hourse img.logo {
+.hourse img.logo {
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 }
 
-#hourse .days-ago {
+.hourse .days-ago {
 	position: absolute;
 	top: 0.25em;
 	right: 0.5em;
@@ -33,15 +33,15 @@ section {
 	color: #aaa;
 }
 
-#hourse header {
+.hourse header {
 	font-weight: bold;
 }
 
-#hourse .text-container {
+.hourse .text-container {
 	padding-left: 1em;
 }
 
-#hourse a {
+.hourse a {
 	color: #778d9f;
 	font-weight: bold;
 }
